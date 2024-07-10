@@ -48,8 +48,7 @@ class TodayProgress extends StatelessWidget {
                 children: [
                   CircularPercentIndicator(
                     percent: per,
-                    backgroundColor:
-                        Theme.of(context).colorScheme.surfaceContainerHighest,
+                    backgroundColor: Theme.of(context).colorScheme.surface,
                     backgroundWidth: 15,
                     progressColor: Theme.of(context).colorScheme.inversePrimary,
                     animation: true,

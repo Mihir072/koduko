@@ -348,11 +348,11 @@ class RoutineScreenState extends State<RoutineScreen>
                                             onTap(null);
                                           },
                                           style: ButtonStyle(
-                                            elevation: WidgetStateProperty
+                                            elevation: MaterialStateProperty
                                                 .all<double>(6),
-                                            shape: WidgetStateProperty.all(
+                                            shape: MaterialStateProperty.all(
                                                 const CircleBorder()),
-                                            padding: WidgetStateProperty.all(
+                                            padding: MaterialStateProperty.all(
                                                 const EdgeInsets.all(15)),
                                           ),
                                           child: AnimatedIcon(

@@ -52,9 +52,8 @@ class _WeeklyChartState extends State<WeeklyChart> {
                                   BarChartRodData(
                                     width: 15,
                                     backDrawRodData: BackgroundBarChartRodData(
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .surfaceContainerHighest,
+                                      color:
+                                          Theme.of(context).colorScheme.surface,
                                       show: true,
                                       toY: value
                                                   .getWeeklyStats()
